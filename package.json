@@ -1,0 +1,16 @@
+{
+  "name": "feelgoodknees-website",
+  "version": "1.0.0",
+  "description": "Feel Good Knees website",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Build completed - static files ready'",
+    "start": "echo 'Starting static file server' && python3 -m http.server 3000",
+    "dev": "python3 -m http.server 3000"
+  },
+  "keywords": ["website", "static"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {}
+}
